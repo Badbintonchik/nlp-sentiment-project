@@ -1,0 +1,47 @@
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# Virtual Environment
+venv/
+env/
+virtualenv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Project specific
+model_cache/
+*.h5
+*.pkl
+*.joblib
+
+# Logs
+logs/
+*.log
+
+# Streamlit
+.streamlit/
+
+# TensorFlow
+*.tfevents
+*.ckpt
+*.ckpt.*
